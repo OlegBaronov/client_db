@@ -128,10 +128,10 @@ if __name__ == '__main__':
         add_client(conn, 'Slava', 'Baronov', 'baronov2408@gmail.com', '+22222222222')
         add_phone(conn, 1, '+79112348488')
 
-        # change_client(conn, 'Slava', None, 'baronov2408@gmail.com', 1)
+        change_client(conn, 'Slava', None, 'bar2408@gmail.com', 1)
         find_client(conn, None, None, None, '+11111111111')
-        # delete_phone_client(conn, '+79112348488')
-        # delete_client(conn, 1)
+        delete_phone_client(conn, '+79112348488')
+        delete_client(conn, 1)
 
 
 
